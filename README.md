@@ -110,26 +110,36 @@ uv pip install -e ".[dev]"
 
 # Run tests
 pytest
-
-# Run linter
-flake8 shellmates/
 ```
 
 ### Project Structure
 
 ```
 shellmates/
-├── shellmates/
+├── src/
+│   └── shellmates/
+│       ├── __init__.py
+│       ├── main.py             # Main entry point
+│       └── textual/            # Textual TUI components
+│           ├── app.py          # BaseApp - main application
+│           ├── app.tcss        # TUI styling
+│           └── widgets/        # Custom widgets
+│               └── ChatBox.py  # Chat widget
+├── tests/                      # Test suite (mirrors src structure)
 │   ├── __init__.py
-│   ├── cli.py              # Command-line interface
-│   ├── core/               # Core game engine
-│   ├── games/              # Individual game implementations
-│   ├── ui/                 # Terminal UI components
-│   └── utils/              # Utility functions
-├── tests/                  # Test suite
-├── docs/                   # Documentation
-├── resources/              # Assets and resources
-├── setup.py
+│   └── textual/
+│       ├── __init__.py
+│       ├── test_app.py         # BaseApp tests
+│       └── widgets/
+│           ├── __init__.py
+│           └── test_chatbox.py # ChatBox tests
+├── resources/                  # Assets and resources
+├── scripts/                    # Utility scripts
+│   └── deploy.sh
+├── pyproject.toml             # Project configuration
+├── setup.py                   # Setup configuration
+├── TESTING.md                 # Testing documentation
+├── CONTRIBUTING.md
 └── README.md
 ```
 
