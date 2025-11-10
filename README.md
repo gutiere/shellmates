@@ -86,7 +86,7 @@ shellmates --help
 
 ## 📋 Requirements
 
--   Python 3.8 or higher
+-   Python 3.10 or higher
 -   Terminal with 256-color support
 -   macOS or Linux (Windows support coming soon)
 
