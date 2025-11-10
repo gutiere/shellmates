@@ -1,0 +1,14 @@
+[project]
+name = "shellmates"
+version = "0.1.5"
+description = "A terminal based gaming hub."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "setuptools>=80.9.0",
+    "twine>=6.2.0",
+]
+
+[project.scripts]
+shellmates = "shellmates.cli:main"
+shm8 = "shellmates.cli:main"
