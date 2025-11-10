@@ -1,7 +1,7 @@
 [![PyPI version](https://badge.fury.io/py/shellmates.svg?)](https://badge.fury.io/py/shellmates)
 ![OS support](https://img.shields.io/badge/OS-macOS%20Linux-red)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
-[![Python Version](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/downloads/)
+[![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/downloads/)
 
 ![](resources/shellmates.png)
 
