@@ -24,7 +24,7 @@ dev = [
 
 [project.scripts]
 shellmates = "shellmates.main:main"
-shm8 = "shellmates.cli:main"
+shm8 = "shellmates.main:main"
 
 [tool.setuptools.packages.find]
 where = ["src"]
