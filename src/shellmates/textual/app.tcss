@@ -28,8 +28,6 @@ ChatBox {
     background: black 100%;
 }
 
-
-
 #roster-view {
     width: 1fr;
     height: 1fr;
@@ -78,4 +76,3 @@ ChatBox {
     color: white;
     width: 100%;
 }
-
