@@ -49,7 +49,7 @@ class ChatBox(Widget):
         self.chat_input = ""
         self.player_name = (
             sys.argv[sys.argv.index(ARG_NAME) + 1]
-            if ARG_NAME in sys.argv
+            if ARG_NAME in sys.argv and sys.argv.index(ARG_NAME) + 1 < len(sys.argv)
             else DEFAULT_PLAYER_NAME
         )
         self.ws = None
