@@ -1,0 +1,78 @@
+Screen { 
+    layout: grid;
+    grid-size: 4 4;
+}
+
+#content-view {
+    width: 3fr;
+    height: 3fr;
+    column-span: 4;
+    row-span: 3;
+    border: solid white;
+    content-align: center middle;
+}
+
+ChatBox :blur {
+    width: 3fr;
+    height: 1fr;
+    column-span: 3;
+    row-span: 1;
+    background: grey 10%;
+}
+
+ChatBox {
+    width: 3fr;
+    height: 1fr;
+    column-span: 3;
+    row-span: 1;
+    background: black 100%;
+}
+
+#roster-view {
+    width: 1fr;
+    height: 1fr;
+    column-span: 1;
+    row-span: 1;
+    border: solid green;
+    content-align: center middle;
+}
+
+/* Chat message colors */
+.chat-message {
+    width: 100%;
+    height: auto;
+    text-style: bold;
+}
+
+.color-system {
+    color: grey;
+}
+
+.color-self {
+    color: cyan;
+}
+
+.color-player1 {
+    color: lightgreen;
+}
+
+.color-player2 {
+    color: magenta;
+}
+
+.color-player3 {
+    color: orange;
+}
+
+.color-player4 {
+    color: lightblue;
+}
+
+.color-default {
+    color: white;
+}
+
+.chat-input-prompt {
+    color: white;
+    width: 100%;
+}
